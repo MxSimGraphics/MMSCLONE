@@ -1,0 +1,39 @@
+.GasGas {
+    margin-top: 33px;
+    width: 100%;
+    height: 450px;
+    background-image: url(GasGas shop/GasGasbildes/GasGasShop1.png);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+@media all and (max-width: 380px) {
+    .GasGas {
+        height: 330px;
+        font-size: 22px;
+        -webkit-text-stroke-width: 2px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .GasGas {
+        height: 260px;
+        font-size: 18px;
+        -webkit-text-stroke-width: 2px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .GasGas {
+        height: 230px;
+        font-size: 17px;
+        -webkit-text-stroke-width: 2px;
+    }
+}
